@@ -6,7 +6,7 @@ Package for saagie : mvn package and get the package in target.
 Usage in local :
 
  - mvn package
- - java -jar target/example-java-read-and-write-from-impala-with-security-1.0-SNAPSHOT-jar-with-dependencies.jar jdbc:hive2://impalahost:21050/ user password
+ - java -jar target/example-java-read-and-write-from-impala-with-security-1.0-SNAPSHOT-jar-with-dependencies.jar jdbc:hive2://impalahost:21050/;auth=PLAIN user password
 Usage in Saagie :
 
  - mvn package (in local, to generate jar file)
